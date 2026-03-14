@@ -49,17 +49,22 @@ Active Directory replication occurs securely across the VPN tunnel.
 ---
 
 ### Vancouver LAN
----
-
+```
 192.168.10.0/24
----
+```
 
 ### Toronto LAN
----
-
+```
 192.168.20.0/24
----
+```
 # Servers
+| Server | Role | Location |
+|-------|------|---------|
+| FW-VAN | RRAS firewall/router | Vancouver |
+| FW-TOR | RRAS firewall/router | Toronto |
+| DC-VAN | Domain Controller | Vancouver |
+| DC-TOR | Domain Controller | Toronto |
+
 # Project Steps
 # Replication Testing
 # Tools Used
