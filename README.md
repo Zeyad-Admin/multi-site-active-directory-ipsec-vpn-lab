@@ -66,7 +66,24 @@ Active Directory replication occurs securely across the VPN tunnel.
 | DC-TOR | Domain Controller | Toronto |
 
 # Project Steps
+
+1. Create Hyper-V virtual switches for WAN and internal LAN networks.
+2. Configure RRAS firewalls at both sites.
+3. Establish an IPsec Site-to-Site VPN tunnel.
+4. Deploy the Vancouver domain controller.
+5. Promote the Toronto server as a replica domain controller.
+6. Configure Active Directory Sites and Services.
+7. Test multi-site Active Directory replication.
+8. 
 # Replication Testing
+Replication between DC-VAN and DC-TOR was verified using:
+
+- repadmin /showrepl
+- dcdiag
+- test user creation
+- DNS record replication
+- Group Policy replication
+  
 # Tools Used
 # Key Concepts Demonstrated
 # Author
