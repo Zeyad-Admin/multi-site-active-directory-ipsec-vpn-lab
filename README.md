@@ -74,7 +74,24 @@ Active Directory replication occurs securely across the VPN tunnel.
 5. Promote the Toronto server as a replica domain controller.
 6. Configure Active Directory Sites and Services.
 7. Test multi-site Active Directory replication.
-8. 
+## Virtual Switch Manager
+
+![Virtual Switch Manager](screenshots/GP_S01_Open_Virtual_Switch_Manager.png)
+
+---
+
+## WAN Virtual Switch
+
+![WAN vSwitch](screenshots/GP_S02_Create_vSwitch-WAN.png)
+
+---
+
+## Vancouver LAN vSwitch
+
+![Vancouver LAN](screenshots/GP_S03_Create_vSwitch-VAN-LAN.png)
+
+---
+
 # Replication Testing
 Replication between DC-VAN and DC-TOR was verified using:
 
